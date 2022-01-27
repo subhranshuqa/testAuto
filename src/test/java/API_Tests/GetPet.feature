@@ -16,11 +16,10 @@ Feature: Get Pet
 
     Examples:
       | id     |
-      | 1    |
       | 2    |
 
   Scenario: Get pet with invalid id
-    Given path '/100'
+    Given path '/9453212'
     When method GET
     Then status 404
     And print response
