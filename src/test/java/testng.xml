@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wikipedia Application Test Automation Test Suite">
+
+
+    <test name="Wikipedia App Test Cases">
+        <classes>
+            <class name="Web_Tests.WikiSearchTest"></class>
+
+        </classes>
+    </test>
+</suite>
